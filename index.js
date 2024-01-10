@@ -3,7 +3,7 @@ import OpenAI from "openai";
 const ctaEl = document.getElementById("cta");
 
 const openai = new OpenAI({
-  apiKey: `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`,
+  apiKey: `AI_KEY`,
    
 
 
@@ -53,7 +53,7 @@ function toggleUI() {
 
 async function request(language) {
     const openai = new OpenAI({
- apiKey: `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`,
+ apiKey: `AI_KEY`,
 
 
     });
