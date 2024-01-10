@@ -3,7 +3,7 @@ import OpenAI from "openai";
 const ctaEl = document.getElementById("cta");
 
 const openai = new OpenAI({
-   apiKey: `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`,
+  apiKey: `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`,
    
 
 
@@ -53,8 +53,8 @@ function toggleUI() {
 
 async function request(language) {
     const openai = new OpenAI({
-  apiKey: process.env.NEW_OPEN,
-  dangerouslyAllowBrowser: true
+ apiKey: `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`,
+
 
     });
 
